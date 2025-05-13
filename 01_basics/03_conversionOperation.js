@@ -38,7 +38,37 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//****************************************************Operations**************************************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);  // 2**3 => 2^3
+// console.log(2/2);
+// console.log(2%3);
+
+// console.log(3 + 4 * 5 / 3); //this is not prefered as it not very readable 
+
+// console.log(((3 + 4) * 5) / 3); //this is much prefered as it is much more readable
+
+// console.log(+true); //+ture is possible but true+ is not although this is not advised
+// console.log(+""); //same goes for this 
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+console.log(gameCounter);
+console.log(++gameCounter);
+console.log(gameCounter++);
+console.log(gameCounter);
 
 
