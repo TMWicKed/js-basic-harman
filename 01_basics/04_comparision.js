@@ -16,6 +16,6 @@ console.log(undefined <= 0);
 console.log(undefined >= 0);
 // we try to avoide the above written codes for null and undefined as it creates confusion
 
-// === this comparison also checks for the datatypes
+// === this is called strict check and this comparison also checks for the datatypes
 console.log("2" === 2);
 

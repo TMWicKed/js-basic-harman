@@ -14,15 +14,13 @@ let age = 24
 let isLoggedIn = false
 
 
-// number => 2^53
+// number => 2^53 range
 // bigint
 // spring => ""
 // boolean => true/false
 // null => standalone value
 // undefined
 // symbol => unique
-
-
 // objects
 
 console.log(typeof "harman");

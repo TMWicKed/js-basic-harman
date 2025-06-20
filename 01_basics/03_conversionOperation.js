@@ -54,6 +54,18 @@ console.log(2**3);  // 2**3 => 2^3
 console.log(2/2);
 console.log(2%3);
 
+let str1 = "harman"
+let str2 = "rashidi"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+
 console.log(3 + 4 * 5 / 3); //this is not prefered as it not very readable 
 
 console.log(((3 + 4) * 5) / 3); //this is much prefered as it is much more readable
