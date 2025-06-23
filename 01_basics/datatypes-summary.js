@@ -1,18 +1,18 @@
 // # Premetive
-// 7 types -> String, Numbers, Boolean, null, Symbol, BigInt, 
+// 7 types -> String, Number, Boolean, null, undefined, BigInt, Symbol(if we need to make a button unique we wrap it around symbol) 
 
-const score = 100
-const scoreValue = 100.3
+const score = 100  //number
+const scoreValue = 100.3  //number
 
-const isLoggedIn = false
-const outsideTemp = null
+const isLoggedIn = false //boolean
+const outsideTemp = null  //null
 
-let username;
+let username;  //undefined
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+const id = Symbol('123')  //symbol
+const anotherId = Symbol('123') //symbol
 
-console.log(id == anotherId);
+console.log(id == anotherId);  //though the value is same it won't be same cause they are unique
 
 const bigNumber = 12345678901234567890n //if the number is too big adding n after the number makes it bigInt
 
