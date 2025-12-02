@@ -1,3 +1,5 @@
+// JavaScript is a dynamically typed language. It means we don't have to specify data types while declaring a variable. Data types are automatically determined during the program execution based on the values assigned to the variables.
+
 // # Premetive
 // 7 types -> String, Number, Boolean, null, undefined, BigInt, Symbol(if we need to make a button unique we wrap it around symbol) 
 
@@ -21,7 +23,7 @@ const bigNumber = 12345678901234567890n //if the number is too big adding n afte
 
 const heros = ["shaktiman", "naagraj", "doga"]  //array
 
-//object
+//objects are defined using key value pairs and inside curly braces {}
 let myObj = {
     name: "harman",
     age: 22

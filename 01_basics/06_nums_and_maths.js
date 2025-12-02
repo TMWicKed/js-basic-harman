@@ -4,22 +4,22 @@ const score = 400
 // doing the below will define this no. as an object and will give us some pre-defined methods to work
 // on this object though they are less then string
 const balance = new Number(100)
-// console.log(balance);
-// console.log(typeof(balance));
-// console.log(typeof(balance.toString()));
-// console.log(balance.toFixed(2));
+console.log(balance);
+console.log(typeof(balance));
+console.log(typeof(balance.toString()));
+console.log(balance.toFixed(2));
 
 const otherNumber = 23.8966
-// console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(3));
 
 const otherNumber1 = 123.8966
-// console.log(otherNumber1.toPrecision(3));
+console.log(otherNumber1.toPrecision(3));
 
 const otherNumber2 = 1123.8966
-// console.log(otherNumber2.toPrecision(3));
+console.log(otherNumber2.toPrecision(3));
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN')); // give commas in between numbers makes counting easy
+console.log(hundreds.toLocaleString('en-IN')); // give commas in between numbers makes counting easy
 
 // +++++++++++++++++++++++++++++++++++++++++++++Math+++++++++++++++++++++++++++++++++++++++++++++++++
 

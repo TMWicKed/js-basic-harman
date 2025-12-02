@@ -31,5 +31,9 @@ console.log(newDate.getDay());
 
 newDate.toLocaleString('default', {
     //inside this by clicking Ctrl+space we can see properties
-    weekday: "long"  //this and so on
+    weekday: "long",  //this and so on
+    day: "numeric",
+    month: "long",
+    year: "numeric"
 })
+console.log(newDate.toDateString());

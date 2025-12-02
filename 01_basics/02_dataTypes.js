@@ -1,4 +1,4 @@
-"use strict" //this tell to teat all JS code as newer version
+"use strict" //treats all JS code as newer version
 
 // alert( 3 + 3 ) //used on browser, we are using nodejs
 
@@ -16,7 +16,7 @@ let isLoggedIn = false
 
 // number => 2^53 range
 // bigint
-// spring => ""
+// string => ""
 // boolean => true/false
 // null => standalone value
 // undefined

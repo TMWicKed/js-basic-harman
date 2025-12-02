@@ -10,6 +10,8 @@ accountCity = "agra" /*should not use this but it can be used */
 let accountState
 
 console.log(accountId);
+console.log(typeof(accountCity));
+
 
 /*
 Prefer not to use var
