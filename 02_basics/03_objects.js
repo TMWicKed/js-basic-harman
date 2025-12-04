@@ -27,10 +27,9 @@
 //   }
 // };
 
-// /* when we declare an object through literal it is not a singleton and vice versa*/
-
 // *************************************************myCode*************************************************
 
+// /* when we declare an object through literal it is not a singleton and vice versa*/
 // object lietrals
 
 const mySym = Symbol("key1");
